@@ -1,5 +1,7 @@
     // import Navbar from "./components/Navbar";
     // import NavbaeCBC from "./components/NavbarCBC";
+import Counter from "./states/fbc/Counter";
+import Heart from "./states/fbc/Heart";
 import States from "./states/fbc/States";
 
 const App =  ()=>{
@@ -13,6 +15,8 @@ const App =  ()=>{
         <NavbaeCBC /> */}
         
         <States />
+        <Counter />
+        <Heart />
 </div>
 
     )

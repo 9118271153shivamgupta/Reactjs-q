@@ -1,8 +1,15 @@
     // import Navbar from "./components/Navbar";
     // import NavbaeCBC from "./components/NavbarCBC";
-import Counter from "./states/fbc/Counter";
-import Heart from "./states/fbc/Heart";
-import States from "./states/fbc/States";
+// import Parent from "./props/Parent";
+// import PropsDrillingPraent from "./propsdrilling/PropsDrillingPraent";
+import FlipNavbar from "./flipkartnav/FlipNavbar";
+// import Profile from "./images/Profile";
+// import Footer from "./reactcss/Footer";
+// import InlineCSS from "./reactcss/InlineCSS";
+// import StateInCBC from "./states/cbc/StateInCBC";
+// import Counter from "./states/fbc/Counter";
+// import Heart from "./states/fbc/Heart";
+// import States from "./states/fbc/States";
 
 const App =  ()=>{
     return(
@@ -14,9 +21,16 @@ const App =  ()=>{
         <h1> This is Class based React Components</h1>
         <NavbaeCBC /> */}
         
-        <States />
+        {/* <States />
         <Counter />
-        <Heart />
+        <Heart /> */}
+        {/* <StateInCBC /> */}
+        {/* <Parent /> */}
+        {/* <PropsDrillingPraent /> */}
+        {/* <InlineCSS /> */}
+        {/* <Footer /> */}
+        {/* <Profile /> */}
+        <FlipNavbar />
 </div>
 
     )

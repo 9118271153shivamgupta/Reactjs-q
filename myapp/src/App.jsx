@@ -2,7 +2,9 @@
     // import NavbaeCBC from "./components/NavbarCBC";
 // import Parent from "./props/Parent";
 // import PropsDrillingPraent from "./propsdrilling/PropsDrillingPraent";
-import FlipNavbar from "./flipkartnav/FlipNavbar";
+// import FlipNavbar from "./flipkartnav/FlipNavbar";
+// import FlipkartNav from "./task1/FlipkartNav";
+import Amazon from "./task2/Amazon";
 // import Profile from "./images/Profile";
 // import Footer from "./reactcss/Footer";
 // import InlineCSS from "./reactcss/InlineCSS";
@@ -14,7 +16,7 @@ import FlipNavbar from "./flipkartnav/FlipNavbar";
 const App =  ()=>{
     return(
 <div>
-<h1> I am App components</h1>
+{/* <h1> I am App components</h1> */}
 
     {/* <h1>I am function Based React Components</h1>
         <Navbar />
@@ -30,7 +32,9 @@ const App =  ()=>{
         {/* <InlineCSS /> */}
         {/* <Footer /> */}
         {/* <Profile /> */}
-        <FlipNavbar />
+        {/* <FlipNavbar /> */}
+        {/* <FlipkartNav /> */}
+        <Amazon />
 </div>
 
     )

@@ -4,7 +4,9 @@
 // import PropsDrillingPraent from "./propsdrilling/PropsDrillingPraent";
 // import FlipNavbar from "./flipkartnav/FlipNavbar";
 // import FlipkartNav from "./task1/FlipkartNav";
-import Amazon from "./task2/Amazon";
+import ControlledForms1 from "./forms/ControlledForms1";
+import ControlledForms2 from "./forms/ControlledForms2";
+// import Amazon from "./task2/Amazon";//! Amazon nav bar
 // import Profile from "./images/Profile";
 // import Footer from "./reactcss/Footer";
 // import InlineCSS from "./reactcss/InlineCSS";
@@ -34,7 +36,9 @@ const App =  ()=>{
         {/* <Profile /> */}
         {/* <FlipNavbar /> */}
         {/* <FlipkartNav /> */}
-        <Amazon />
+        {/* <Amazon /> */}
+        <ControlledForms1 />
+        <ControlledForms2 />
 </div>
 
     )

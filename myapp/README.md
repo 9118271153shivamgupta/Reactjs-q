@@ -7,11 +7,20 @@
  Prop 
  state 
  diff cbc and fnc
-destructureing 
+destructureing
+reconsiliation
 
-===============================
-send data PArent to Child 
+===============================PROPS============================
+send data Parent to Child //
 send data Child to prarent
 propsDrilling
 ==============
 # how to apply css in react
+#? forms in react ()
+#event in react==> 2 type
+    1). synthetic event 
+    2). non-synthetic  event
+difference between onClick and onSubmit
+
+PreventDefault ?==>
+spread operator in js and react 

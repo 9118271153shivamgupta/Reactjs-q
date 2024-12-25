@@ -1,7 +1,7 @@
 import React from 'react'
 
 const ChildC = ({setterFun}) => {
-  let data = "Hello Child C"
+  let data = "Hello Child C";
   return (
     <div>
       <h1> I am Child C</h1>

@@ -1,0 +1,29 @@
+#usersContainer{
+    width: 100%;
+    border: 12px solid black;
+    padding: 20px;
+}
+#usersContainer>h1{
+    text-align: center;
+}
+.user{
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+section>button{
+    padding: 10px;
+    color:rgb(27 ,142,213);
+    background-color:white ;
+    border: 1px solid rgb(27 ,142,213);
+    transition:0.2s;
+    border-radius: 5px;
+    cursor: pointer;
+}
+section>button:hover{
+    background-color: blue;
+}

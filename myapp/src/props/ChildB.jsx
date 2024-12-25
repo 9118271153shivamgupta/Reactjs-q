@@ -1,6 +1,7 @@
 import React from 'react'
 
-const ChildB = ({fun}) => {
+const ChildB = (props) => {
+  let {fun}=props
     console.log(fun)  
 
   return (

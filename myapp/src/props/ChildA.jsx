@@ -32,13 +32,16 @@
 import React from 'react'
 
 const ChildA = (x) => {
+
   console.log(x)//!==> dbData:{data,data2}
   let {dbData:{data, data2:{id,ename}}}=x;
 
   console.log(data, id, ename)
   return (
     <div>
-      
+    <h1>this is data:{data}</h1>
+    <h2> this is id and ename:{id},{ename}</h2>
+    
     </div>
   )
 }

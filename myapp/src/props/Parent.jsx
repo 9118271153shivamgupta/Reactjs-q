@@ -11,15 +11,17 @@ const Parent = () => {
     function Display(){
       console.log(" i am Display function")
     }
+    let  Display2=()=>{
+      console.log(" i am Display2 function")
+    }
   return (
     <div>
             <h1>
               I am Parent Class 
             </h1>
             <ChildA dbData={{data,data2}}  />
-            <ChildB  fun={Display}/>
-
-            1
+            {/* <ChildB  fun={Display}/> */}
+            <ChildB  fun={{Display2, Display}}/>
             <hr />
             <ChildC setterFun={setState}/>
             {state}

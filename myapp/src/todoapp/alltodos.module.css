@@ -1,0 +1,47 @@
+#todosWrapper{
+    /* background-color: aqua; */
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+  
+    
+
+
+}
+#todosWrapper > section{
+    width: 200px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(211,211,211);
+    /* box-shadow: 5px 5px 5px rgb(152, 142, 142); */
+    /* box-shadow: 5px 8px 5px black; */
+    /* transition: 0.5s; */
+    
+}
+#todosWrapper > section:hover{
+    box-shadow: 5px 8px 5px black;
+    transition: 0.5s;
+}
+
+#todosWrapper > section > button:last-of-type{
+    margin-left: 20px;
+    
+
+}
+#todosWrapper>section>button{
+    width: 80px;
+    height: 35px;
+    background-color: rgb(139, 139, 192);
+    border-radius: 15px;
+    padding: 3px 10px;
+    border: none;
+    /* outline: none; */
+    
+}
+#todosWrapper>section>button:hover{
+    box-shadow: 5px 8px 5px black;
+    transition: 0.5s;
+    
+}
+

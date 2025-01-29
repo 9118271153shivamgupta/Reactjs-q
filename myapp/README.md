@@ -65,10 +65,19 @@ state and props
 
 # Costum Hook
 REducer in react= it take two argument (reducerfunction, initialState)
+HOC in React==========
+parent<= Child1 Hoc(Child1)<=Hoc(WrapperedComponent)
+useMemo in react======================
+useCallback= in react
 
 
+code spliting in react==================
+1). Lazy loading 
+2). suspance components
 
 presentation topic====================================================================
 components 
 type of css 
-life cycle methsod
+life cycle methods
+
+

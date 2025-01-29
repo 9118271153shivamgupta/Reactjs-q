@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "id": "fdc8",
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin@123",
+      "phoneno": "1234567890",
+      "gender": "male",
+      "dob": "2001-01-01",
+      "agreement": true
+    },
+    {
+      "id": "4164",
+      "username": "user1",
+      "email": "user1@gmail.com",
+      "password": "uaer123",
+      "phoneno": "1234444444",
+      "gender": "male",
+      "dob": "2000-01-02",
+      "agreement": true
+    },
+    {
+      "id": "f82a",
+      "username": "user2",
+      "email": "user2@gmail.com",
+      "password": "user123",
+      "phoneno": "1234567890",
+      "gender": "male",
+      "dob": "2025-01-01",
+      "agreement": true
+    },
+    {
+      "id": "b427",
+      "username": "shivam ",
+      "email": "shivamkumargupta5592@gmail.com",
+      "password": "1234",
+      "phoneno": "9118271153",
+      "gender": "male",
+      "dob": "2000-11-11",
+      "agreement": true
+    }
+  ]
+}

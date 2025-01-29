@@ -1,0 +1,1 @@
+npx json-server backend/db.json -w --port 4040 ===>// for creation api

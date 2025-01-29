@@ -11,7 +11,7 @@
 // import ControlledForms1 from "./forms/ControlledForms1";
 // import ControlledForms2 from "./forms/ControlledForms2";
 // import TodoWrapper from "./todoapp/TodoWrapper.jsx";//! TODOAPP
-// import Amazon from "./task2/Amazon";//! Amazon nav bar
+import Amazon from "./task2/Amazon";//! Amazon nav bar
 // import Profile from "./images/Profile";
 // import Footer from "./reactcss/Footer";
 // import InlineCSS from "./reactcss/InlineCSS";
@@ -23,7 +23,12 @@
 // import UnControlledForms from "./forms/UnControlledForms";
 import { useState } from "react";
 // import Reducer from "./reducer/Reducer";//& ignore this error
-import PracticeReducer from "./reducer/PracticeReducer";
+// import PracticeReducer from "./reducer/PracticeReducer";
+import HocParent from "./hoc/HocParent";
+import MemoParent from "./memo/MemoParent";
+import MyComponents from "./erroeboundries/MyComponents";
+import ErrorBoundry from "./erroeboundries/ErrorBoundry";
+import PracticeControlledForm from "./forms/PracticeControlledForm";
 
 
 // import LifeCycle from "./lifecycle/LifeCycle";
@@ -93,9 +98,20 @@ const App =  ()=>{
 
         {/* //^ Reducer Hooks ======================================*/}
                         {/* <Reducer/> */}
-                        <PracticeReducer />
+                        {/* <PracticeReducer /> */}
 
-  
+        {/* //^  =========HOC in React===================================== */}
+                {/* <HocParent /> */}
+
+        {/* //^===========useMemo============================ */}
+        {/* <MemoParent/> */}
+{/* //^==MY Component=============== */}
+       {/* <ErrorBoundry>
+            <MyComponents/>
+       </ErrorBoundry> */}
+
+       //& Practice  Controlled Form=========================
+       <PracticeControlledForm/>
 </div>
 
     )
